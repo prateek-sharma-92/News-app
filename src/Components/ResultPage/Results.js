@@ -8,6 +8,7 @@ function Results() {
   const [Newsdata, setData] = useState();
   const category = useSelector((state) => state.reducer);
   console.log(category);
+
   axios
     .get(
       `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=${API_key}`
