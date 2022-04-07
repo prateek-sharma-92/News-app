@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
-import { API_key } from "../../keys";
+import { API_key } from "../../Redux/keys";
 import "./Results.css";
 
 function Results() {
