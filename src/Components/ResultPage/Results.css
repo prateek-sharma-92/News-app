@@ -15,6 +15,7 @@
   border-radius: 5px;
   object-fit: contain;
   height: 30vh;
+  width: 25vw;
 }
 
 .text-container {
