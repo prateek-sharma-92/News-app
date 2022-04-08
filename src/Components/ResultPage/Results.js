@@ -15,6 +15,9 @@ function Results() {
         )
         .then((res) => {
           setData(res.data.articles);
+        })
+        .catch((err) => {
+          console.log(err);
         });
     }
     fetchData();
